@@ -51,8 +51,23 @@
                     <input id="username" type="text" placeholder="Enter your username" minlength="3" required>
                 </div>
                 <br>
+                <div>
+                    <label for="address">Enter Your Email</label>
+                    <input type="email" name="Email" id="address" required>
+                </div>
+                <br>
                 <div> <label for="password">Enter Password</label>
                     <input id="password" type="password" required minlength="8">
+                </div>
+                <br>
+                <div>
+                    <label for="age">Enter Your Age</label>
+                    <input type="number" name="Age" id="age" minlength="2" maxlength="2" requied>
+                </div>
+                <br>
+                <div>
+                    <label for="birth">Enter Your Birthday</label>
+                    <input item type="date" name="date" id="birth">
                 </div>
                 <div>
                     <p>
@@ -67,17 +82,18 @@
                 </div>
                 <br>
                 <div>
-                    Choose Qualification
-                    <select required>
+                    <label for="select">Choose Your Qualification</label>
+                    <select required id="select">
                         <option value="Classes">Select</option>
                         <option value="Classes">Matric</option>
                         <option value="Classes">Inter</option>
                         <option value="Classes">Graduate</option>
                     </select>
                 </div>
-                    <div>
-                        <input type="submit">
-                    </div>
+                <br>
+                <div>
+                    <input type="submit" id="submit">
+                </div>
             </fieldset>
         </form>
     </div>
