@@ -40,7 +40,16 @@ div {
   border-radius: 10px;
   width: 80%;
 }
+.last-line{
+  text-align: center;
+}
 
+.mango-juice{
+  text-align: center;
+}
+.potato{
+  text-align: center;
+}
 table {
   width: 80%;
   margin: 0 auto;
