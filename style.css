@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-ul {
+ul, .post-navigation {
   list-style-type: none;
   margin: 0;
   padding: 10px;
@@ -17,13 +17,16 @@ ul {
   border-radius: 7px;
 }
 
-ul li a {
+ul li a, .post-navigation{
   color: #f8fafc;
   text-decoration: none;
   font-weight: bold;
 }
 
 ul li a:hover {
+  color: #60a5fa;
+}
+.post-navigation:hover {
   color: #60a5fa;
 }
 
