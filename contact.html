@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
-
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="tablet.css" media="screen and (max-width: 993px)"
+<link rel="stylesheet" href="phone.css" media="screen and (max-width: 660px)">
 
 <body>
     <ul>
@@ -73,15 +72,14 @@
                     <input item type="date" name="date" id="birth">
                 </div>
                 <div>
-                    <p>
-                        Select your Gender
-                    </p>
-                    <label for="Gender">Male</label>
-                    <input id="Gender" type="radio" name="gender">
-                    <label for="Female">Female</label>
-                    <input id="Female" type="radio" name="gender">
-                    <label for="not say">Prefer Not Say</label>
-                    <input id="not say" type="radio" name="gender">
+                    <label for="gender">Select Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="gender">Select Gender</option>
+                        <option value="gender">Male</option>
+                        <option value="gender">Female</option>
+                        <option value="gender">Prefer not to say</option>
+                    </select>
+                    
                 </div>
                 <br>
                 <div>

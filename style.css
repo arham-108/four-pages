@@ -6,7 +6,8 @@ body {
   padding: 0;
 }
 
-ul, .post-navigation {
+ul,
+.post-navigation {
   list-style-type: none;
   margin: 0;
   padding: 10px;
@@ -17,7 +18,8 @@ ul, .post-navigation {
   border-radius: 7px;
 }
 
-ul li a, .post-navigation{
+ul li a,
+.post-navigation {
   color: #f8fafc;
   text-decoration: none;
   font-weight: bold;
@@ -26,6 +28,7 @@ ul li a, .post-navigation{
 ul li a:hover {
   color: #60a5fa;
 }
+
 .post-navigation:hover {
   color: #60a5fa;
 }
@@ -43,16 +46,19 @@ div {
   border-radius: 10px;
   width: 80%;
 }
-.last-line{
+
+.last-line {
   text-align: center;
 }
 
-.mango-juice{
+.mango-juice {
   text-align: center;
 }
-.potato{
+
+.potato {
   text-align: center;
 }
+
 table {
   width: 80%;
   margin: 0 auto;
@@ -82,12 +88,27 @@ form {
 }
 
 input,
+select,
+label {
+  display: flex;
+  line-height: 2;
+}
+
+label {
+  margin-left: 5px;
+}
+
+input,
 select {
   background-color: #0f172a;
   color: #f8fafc;
   border: 1px solid #3b82f6;
   border-radius: 10px;
-  padding: 5px;
+  padding: 17px;
+  width: 50%;
+}
+select{
+  width: 55%;
 }
 
 input[type="submit"] {
